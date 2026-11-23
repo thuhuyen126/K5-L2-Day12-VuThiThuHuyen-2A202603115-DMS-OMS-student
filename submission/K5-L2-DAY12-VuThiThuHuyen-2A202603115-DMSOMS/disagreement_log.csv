@@ -1,0 +1,45 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Tắt cờ occluded cho điểm mouth_right của face13 trên D01.png
+D01.png,face13,mouth_right.outside,khác cờ,0,1,peer,4.6,Bật cờ outside cho điểm mouth_right của face13 trên D01.png
+D02.png,face,eye_left,khác giá trị (IoU=0.95),closed,open,peer,4.5,Giữ nguyên closed; peer sửa open thành closed (liếc xuống còn thấy khe mắt vẫn tính là open)
+D02.png,face,eye_right,khác giá trị (IoU=0.95),closed,open,peer,4.5,Giữ nguyên closed; peer sửa open thành closed (liếc xuống còn thấy khe mắt vẫn tính là open)
+D02.png,face,gaze_zone,khác giá trị (IoU=0.95),other,lap,peer,4.5,Giữ nguyên other; peer sửa lap thành other (mắt và đầu hướng xuống vùng đùi)
+D02.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Tắt cờ occluded cho điểm left_eye_outer của face13 trên D02.png
+D03.png,face,eye_left,khác giá trị (IoU=0.91),unknown,open,peer,4.5,Giữ nguyên unknown; peer sửa open thành unknown (thấy rõ khe mắt mở khi chỉnh sáng hiển thị trên CVAT)
+D03.png,face,eye_right,khác giá trị (IoU=0.91),unknown,open,peer,4.5,Giữ nguyên unknown; peer sửa open thành unknown (thấy rõ khe mắt mở khi chỉnh sáng hiển thị trên CVAT)
+D03.png,face,gaze_zone,khác giá trị (IoU=0.91),other,center,peer,4.5,Giữ nguyên other; peer sửa center thành other (mắt và đầu hướng về màn hình trung tâm)
+D03.png,person,seatbelt,khác giá trị (IoU=0.90),unknown,worn_correct,peer,4.7,Giữ nguyên unknown; peer sửa worn_correct thành unknown (thấy rõ dải dây chéo từ vai xuống hông khi chỉnh sáng hiển thị trên CVAT)
+D03.png,face13,left_eye_inner.occluded,khác cờ,1,0,,,
+D03.png,face13,right_eye_inner.outside,khác cờ,1,0,,,
+D03.png,face13,right_eye_upper.occluded,khác cờ,0,1,,,
+D03.png,face13,right_eye_upper.outside,khác cờ,1,0,,,
+D03.png,face13,right_eye_lower.occluded,khác cờ,0,1,,,
+D03.png,face13,right_eye_lower.outside,khác cờ,1,0,,,
+D03.png,face13,mouth_right.occluded,khác cờ,1,0,,,
+D04.png,face13,left_eye_outer.occluded,khác cờ,1,0,,,
+D04.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,,,
+D05.png,face,glasses,khác giá trị (IoU=0.86),unknown,sun,,,
+D05.png,face13,left_eye_outer.outside,khác cờ,0,1,,,
+D05.png,face13,left_eye_upper.outside,khác cờ,0,1,,,
+D05.png,face13,left_eye_lower.outside,khác cờ,0,1,,,
+D06.png,face,eye_left,khác giá trị (IoU=0.90),unknown,closed,,,
+D06.png,face,eye_right,khác giá trị (IoU=0.90),unknown,closed,,,
+D06.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,,,
+D06.png,face13,left_eye_inner.occluded,khác cờ,1,0,,,
+D06.png,face13,left_eye_upper.occluded,khác cờ,1,0,,,
+D06.png,face13,left_eye_lower.occluded,khác cờ,1,0,,,
+D06.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,,,
+D06.png,face13,right_eye_lower.occluded,khác cờ,1,0,,,
+S01_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S01_ir.png
+S01_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S01_rgb.png
+S01_rgb.png,object,type,khác giá trị (IoU=0.65),cup,other,,,
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.99),no,unknown,peer,4.8,Giữ nguyên no; peer sửa unknown thành no (không thấy rõ bên trong ghế trên ảnh RGB)
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.94),no,unknown,mine,4.8,Sửa occupied của child_seat trên S05_ir.png từ unknown thành no (ảnh IR nhìn rõ lòng ghế trống)
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.90),no,unknown,peer,4.8,"Giữ nguyên no; peer sửa unknown thành no (không suy từ ảnh IR sang ảnh RGB tối, theo mục 4.4-1 & 4.8)"
+S07_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S07_ir.png
+S07_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S07_rgb.png
+S08_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S08_ir.png
+S08_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),,IoU=0.00,peer,4.2,Tôi bổ sung box face (chỉ box) cho người lớn trên S08_rgb.png

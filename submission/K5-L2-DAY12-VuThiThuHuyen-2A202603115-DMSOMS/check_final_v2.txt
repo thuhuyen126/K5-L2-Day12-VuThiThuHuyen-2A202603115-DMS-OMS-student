@@ -1,0 +1,4 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=12, face13=6, hand=11, infant_seat=6, object=7, person=12, phone=1
+  [WARN] D03.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

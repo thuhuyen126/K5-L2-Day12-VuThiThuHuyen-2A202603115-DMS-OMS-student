@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Vật thể dạng cốc có đường viền và hình dáng dễ nhận diện trên ảnh IR-sim dù vùng tương ứng trên ảnh RGB thiếu sáng","object.type","Gán nhãn object với type=cup trên ảnh IR-sim; không tạo nhãn tương ứng trên RGB khi hình ảnh không cung cấp đủ bằng chứng"
+S02_ir,IR_sim,"Phần lòng ghế trẻ em thể hiện rõ trên ảnh IR-sim, có thể quan sát được tình trạng không có trẻ bên trong; ảnh RGB không đủ sáng để xác nhận","child_seat.occupied","Gán occupied=no trên IR-sim; giữ occupied=unknown trên RGB vì không đủ thông tin trực quan"
+S05_ir,IR_sim,"Chi tiết bên trong child_seat vẫn phân biệt được trên ảnh IR-sim, trong khi vùng tương ứng trên RGB bị tối và khó đánh giá","child_seat.occupied","Có thể xác định occupied=no trên IR-sim; không suy diễn trạng thái ghế từ ảnh IR-sim sang RGB, giữ unknown nếu RGB không đủ bằng chứng"
+D03,real_IR,"Ánh sáng hồng ngoại phản chiếu trên tròng kính tạo vùng che khuất chi tiết mắt bên phải","eye_right","Không đủ cơ sở xác định trạng thái mắt phải; sử dụng unknown thay vì tự gán open hoặc closed"
